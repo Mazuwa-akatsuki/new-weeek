@@ -1,0 +1,20 @@
+print("Welcome to my computer quiz")
+
+playing = input("do you want to play?  ")
+
+if playing.lower != "yes":
+    quit()
+
+print("okay! let's play:)")
+Score = 0
+
+answer = input("what does cpu stand for? ")
+if answer == "central processing unit":
+    print('correct')
+    score += 2
+else:
+    print("incorrect")
+    
+print("you got" + str(score) + "questions correct!")
+print("you got" + str((score / 1) * 100) + "%.")
+    
